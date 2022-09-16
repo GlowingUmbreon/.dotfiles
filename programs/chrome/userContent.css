@@ -1,0 +1,23 @@
+:root {
+    /* Remove scrollbar */
+    scrollbar-width: none !important;
+}
+
+@-moz-document url-prefix(about:) {
+    :root {
+        color: #D9E0EE !important; 
+    }
+
+    body {
+        background-color: #1E1E2E !important;
+
+        /* Settings */
+        --in-content-accent-color: #89DCEB;
+
+        /* Home */
+        --newtab-background-color-secondary: #302D41 !important;
+
+        /* Fix black cubes on certain screens */
+        --in-content-page-background: transparent !important; 
+    }
+}\
