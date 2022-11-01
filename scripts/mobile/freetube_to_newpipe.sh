@@ -25,8 +25,8 @@ sqlite3 newpipe.db ".import --csv -v subscriptions.csv subscriptions"
 
 # Compress the file
 zip newpipe.zip newpipe.db
-rm ~/Sync/newpipe.zip
-mv newpipe.zip ~/Sync
+rm ~/Sync/freetube/newpipe.zip
+mv newpipe.zip ~/Sync/freetube
 
 # Delete temporary files
 rm newpipe.db playlist_stream_join.csv playlists.csv streams.csv subscriptions.csv

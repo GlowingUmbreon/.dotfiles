@@ -10,3 +10,4 @@ ln -s ~/.dotfiles/.zshrc ~
 
 #ln -s ~/Sync/freetube/playlists.db ~/.config/FreeTube
 #ln -s ~/Sync/freetube/subscriptions.db ~/.config/FreeTube
+#ln -s ~/Sync/newsboat ~/.config
