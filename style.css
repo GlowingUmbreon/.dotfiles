@@ -1,0 +1,10 @@
+:root {
+	margin: -5px
+}
+
+h1:after
+{
+	content:' ';
+	display:block;
+	border:2px solid lightblue;
+}
